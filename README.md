@@ -1,48 +1,25 @@
-# _{Ping Pong}_
+# _{Stars}_
 
-#### _{A game of ping pong, based on number inputs}, {July 14th, 2017}_
+#### _{Interactive Stars}_
 
 #### By _**{Kate Byars}**_
 
 ## Description
 
-_{This game was created for the Introduction to Programming course at Epicodus, Portland.}_
+_{This game was created for the Introduction to Programming course at Epicodus, Portland as a JavaScript experiment.}_
 
-## Specifications following BDD
+## Specifications
 
-* _Returns any value entered._
-  * _Example input : 1_
-  * _Example output : 1_
-* _Returns the value of 1_
-  * _Example input : 1_
-  * _Example output : 1_
-* _Returns an array counting to 2_
-  * _Example input : 2_
-  * _Example output : 1, 2_
-* _Returns are amended as a new item below the previous answer_
-  * _Example input : 3_
-  * _Example output, below previous output: 1, 2, 3_
-* _Returns "ping" upon input of 3_
-  * _Example input : 3_
-  * _Example output : ping_
-* _Returns "pong" upon input of 5_
-  * _Example input : 5_
-  * _Example output : pong_
-* _Returns the word "ping-pong" upon input of 15_
-  * _Example input : 15_
-  * _Example output : ping-pong_
-* _Returns "ping" upon input of any number divisible by 3_
-  * _Example input : 6_
-  * _Example output : ping_
-* _Returns "pong" upon input of any number divisible by  5_
-  * _Example input : 25_
-  * _Example output : pong_
-* _Returns the word "ping-pong" upon input of any number divisible by 15_
-  * _Example input : 30_
-  * _Example output : ping-pong_
-* _Returns an array counting to any number inputted by the user except any input number divisible by 3, 5 or 15_
-  * _Example input : 7_
-  * _Example output : 1, 2, 3, 4, 5, 7_
+* _The page has a midnight blue background with twelve columns and twelve rows. This can be duplicated later for more stars._
+* _There are various sizes of white dots, to act as stars._
+* _Various sizes of stars are in a fluid container._
+* _Stars change size on hover._
+* _Stars move a small amount on the page on hover._
+* _Stars do their changes at different speeds._
+* _Stars change opacity on hover._
+* _A bunch of white "sparkles" appear next to each star._
+* _A bunch of white "sparkles" disappear next to each star._
+* _._
 
 ## Known Bugs
 
