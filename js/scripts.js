@@ -10,6 +10,17 @@ $(document).ready(function(){
   //   // $(this).show();
   //   // $(this).fadeIn("slow");
   // });
+  var starSizes = ["one", ".two", ".three"];
+  var length = starSizes.length;
+
+  function assignStar (star, child)
+  {
+
+  }
+  $("div.star").child().forEach(function() {
+    starIndex = Math.floor(Math.random() * starSizes.length);
+    $(this).addClass(starSizes[starIndex]);
+  });
 
   $(".star").hover(function(){
     $(this).fadeIn("slow");
