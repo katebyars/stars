@@ -10,16 +10,14 @@ $(document).ready(function(){
   //   // $(this).show();
   //   // $(this).fadeIn("slow");
   // });
-  var starSizes = ["one", ".two", ".three"];
+  var starSizes = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve'];
   var length = starSizes.length;
+  var starChild = (".star:first-child");
 
-  function assignStar (star, child)
-  {
-
-  }
-  $("div.star").child().forEach(function() {
-    starIndex = Math.floor(Math.random() * starSizes.length);
+  $("starChild").each(function(e){
+    starIndex = Math.floor(Math.random()*starSizes.length);
     $(this).addClass(starSizes[starIndex]);
+    alert("hi");
   });
 
   $(".star").hover(function(){
